@@ -12,7 +12,19 @@ body {
 a {
   text-decoration: none;
 }
-
+#navbar{
+  display: flex;
+  justify-content: flex-end;
+  top: 0;
+  left: 0;
+  background-color: rgb(201, 77, 97);
+  font-size: 20px; 
+}
+.navlink{
+    margin-right: 15px;
+    color: #f0f0f0;
+    padding: 18px;
+}
 #welcome-section {
   background-color: rgb(228, 210, 220);
   height: 100vh;
