@@ -1,0 +1,28 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: sans-serif;
+}
+
+#welcome-section {
+  background-color: rgb(228, 210, 220);
+  height: 100vh;
+  width: auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+h1 {
+  margin: 30px;
+  font-size: 50px;
+}
+#wsp {
+  color: rgb(42, 42, 122);
+  font-size: 20px;
+}
