@@ -12,18 +12,18 @@ body {
 a {
   text-decoration: none;
 }
-#navbar{
+#navbar {
   display: flex;
   justify-content: flex-end;
   top: 0;
   left: 0;
   background-color: rgb(201, 77, 97);
-  font-size: 20px; 
+  font-size: 20px;
 }
-.navlink{
-    margin-right: 15px;
-    color: #f0f0f0;
-    padding: 18px;
+.navlink {
+  margin-right: 15px;
+  color: #f0f0f0;
+  padding: 18px;
 }
 #welcome-section {
   background-color: rgb(228, 210, 220);
@@ -48,7 +48,7 @@ h2 {
   font-size: 20px;
 }
 
-#projects{
+#projects {
   text-align: center;
   background-color: rgb(160, 84, 160);
 }
@@ -62,26 +62,27 @@ h2 {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
   grid-gap: 4rem;
+  padding-bottom: 80px;
 }
 
-.projects{
+.projects {
   background: #303841;
   box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
   border-radius: 2px;
   margin: 25px 10px 25px 25px;
 }
 
-.images{
+.images {
   width: 100%;
   object-fit: cover;
 }
-.project-title{
+.project-ttle {
   color: #f0f0f0;
   font-size: 20px;
   padding: 5%;
 }
 
-#profile{
+#profile {
   height: 70vh;
   width: auto;
   display: flex;
@@ -96,7 +97,7 @@ h2 {
   color: #fff;
 }
 
-.links{
+.links {
   display: flex;
   align-items: center;
   text-align: center;
