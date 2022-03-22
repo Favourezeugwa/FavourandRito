@@ -43,7 +43,7 @@ h2 {
   font-size: 30px;
 }
 
-#wsp {
+.wsp {
   color: rgb(42, 42, 122);
   font-size: 20px;
 }
@@ -79,4 +79,40 @@ h2 {
   color: #f0f0f0;
   font-size: 20px;
   padding: 5%;
+}
+
+#profile{
+  height: 70vh;
+  width: auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #303841;
+  color: #fff;
+}
+
+#profile > p {
+  color: #fff;
+}
+
+.links{
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  font-size: 30px;
+  flex-wrap: wrap;
+}
+
+.links > a {
+  padding: 15px 15px 0 0;
+  color: rgb(212, 131, 101);
+}
+
+@media (max-width: 550px) {
+  #profile > h1 {
+    font-size: 20px;
+    margin-bottom: 30px;
+  }
 }
